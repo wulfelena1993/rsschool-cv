@@ -9,4 +9,4 @@ _________________________________
 _________________________________
 ### English proficiency level : beginner ###
 _________________________________
-![photo](/photo/photo.jpg)
+![photo](/assets/img/photo.jpg)

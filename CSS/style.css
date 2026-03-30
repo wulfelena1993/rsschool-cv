@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Fredoka;
+  src: url("../assets/fonts/Fredoka.ttf");
+}
+
+body {
+  font-family: 'Fredoka';
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ img {
+    height: auto;
+    width: 30%;
+    }
