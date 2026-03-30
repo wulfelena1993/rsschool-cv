@@ -11,6 +11,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-image: url("../assets/img/grey-textured-background_24972-763.avif");
+  color: rgb(21, 41, 112);
+
 }
 
 .container {
@@ -32,4 +34,11 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px; 
+  color: #0e0e0ee6;
+  transition: color 0.5s;
 }
