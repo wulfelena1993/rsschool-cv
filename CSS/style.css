@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Fredoka;
+  src: url("../assets/fonts/Fredoka.ttf");
+}
+
+body {
+  font-family: 'Fredoka';
+  min-height: 100vh;
+  margin: 0; padding: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+  background-image: url("../assets/img/grey-textured-background_24972-763.avif");
+  color: rgb(21, 41, 112);
+  font-weight: bold;
+
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ img {
+    height: auto;
+    width: 30%;
+}
+
+ .nav-list {
+  display: flex;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px; 
+  color: #0e0e0ee6;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+.section-title {
+  color: rgba(199, 232, 248, 0.829);
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+} 
+
+.section-title {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(10, 10, 10, 0.862);
+ }
+
+ .github-link {
+ color: rgba(10, 10, 10, 0.862);
+ text-decoration: none;
+ }
